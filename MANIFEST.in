@@ -1,0 +1,9 @@
+include README.md
+include patois/corpus/datasets/*
+include patois/utils/datasets/*
+include patois/utils/models/*
+include patois/utils/models/mallet/*
+include patois/utils/models/topic-files/*
+include requirements.txt
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
